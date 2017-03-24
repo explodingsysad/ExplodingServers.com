@@ -1,0 +1,14 @@
+---
+layout: default
+title: Exploding Servers
+---
+<div class="blurb">
+  <h1>We're exploding servers</h1>
+  <p> Bringing you the latest guides for setting up your servers, making them awesome!</p>
+    <ul class="posts">
+    {% for post in site.posts %}
+           <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+     </ul>
+</div>
+

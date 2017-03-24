@@ -1,0 +1,5 @@
+name: Exploding Servers
+markdown: kramdown
+theme: jekyll-theme-hacker
+permalink: /recipes/:title
+
